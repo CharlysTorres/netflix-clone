@@ -1,0 +1,41 @@
+@media screen and (max-width: 900px) {
+  .header {
+    max-width: 1050px;
+  }
+  .header a {
+    padding: 16;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  
+}
+
+@media screen and (max-width: 425px) {
+  .banner-main {
+    background-size: 500px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner-main h2 {
+    font-size: 28px;
+  }
+
+  .wrapper-buttons > button {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .wrapper-buttons button + button {
+    margin-bottom: 0;
+  }
+
+  header img {
+    width: 96px;
+  }
+  .profile-user img {
+    width: 32px;
+    height: 32px;
+  }
+}
